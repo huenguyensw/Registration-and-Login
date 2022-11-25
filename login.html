@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <form id="form">
+        <img src="img/avatar-login.jpg" alt="avatar" class="avatar">
+        <p>Login</p>
+        <p id="warning" style="display:none; color:red"></p>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <button id="submit"><a>Sign in</a></button>
+        <div class="remember-account">
+            <div class="remember">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Remember me</label>
+            </div>
+            <a href="#" id="forgotPass">Forgot password?</a>
+        </div>
+    </form>
+    <div class="register">
+        <label>Don't have an account?</label>
+        <a href="#">Sign up here!</a>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
